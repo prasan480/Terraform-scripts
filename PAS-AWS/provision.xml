@@ -1,0 +1,11 @@
+<provision>
+  <name>PAS</name>
+  <displayName>PAS</displayName>
+  <description>PAS server provisioning</description>
+  <type>AWS</type>
+  <group>Basic</group>
+  <creator>Sanket Bhagat</creator> 	
+  <creationDate>1712934608499</creationDate>
+  <executorClass>com.qi.provision.PASAWSExecutor</executorClass>
+  <licenseClass>com.qi.AWSProvisionLicense</licenseClass>
+</provision>

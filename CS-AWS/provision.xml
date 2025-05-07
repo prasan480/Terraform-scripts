@@ -1,0 +1,11 @@
+<provision>
+  <name>CS</name>
+  <displayName>CS</displayName>
+  <description>CS server provisioning</description>
+  <type>AWS</type>
+  <group>Basic</group>
+  <creator>Sanket Bhagat</creator> 	
+  <creationDate>1712934608499</creationDate>
+  <executorClass>com.qi.provision.CSAWSExecutor</executorClass>
+  <licenseClass>com.qi.AWSProvisionLicense</licenseClass>
+</provision>
