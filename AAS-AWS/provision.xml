@@ -1,0 +1,11 @@
+<provision>
+  <name>AAS</name>
+  <displayName>AAS</displayName>
+  <description>AAS server provisioning</description>
+  <type>AWS</type>
+  <group>Basic</group>
+  <creator>Sanket Bhagat</creator> 	
+  <creationDate>1712934608499</creationDate>
+  <executorClass>com.qi.provision.AASAWSExecutor</executorClass>
+  <licenseClass>com.qi.AWSProvisionLicense</licenseClass>
+</provision>

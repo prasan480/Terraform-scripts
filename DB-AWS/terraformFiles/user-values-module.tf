@@ -1,0 +1,22 @@
+module "user_module" {
+  source                 = "./db-common"
+  instance_name          = ${application_name}
+  instance_type_db       = ${instanceType}
+  instance_profile       = ${instance_profile}
+  db_count               = ${as_count}
+  user                   = ${user}
+  ami_id                 = ${ami}
+  sap_sid                = ${sap_sid}
+  IAC_org                = "SystemAdministrator"
+  oracle_disk_size       = ${oracle_disk_size}
+  oracle_disk_num        = ${oracle_disk_num}
+  oracle_flashback_disk  = ${oracle_flashback_disk}
+  oracle_data_iops       = ${oracle_data_iops}
+  oracle_data_throughput = ${oracle_data_throughput}
+  oracle_sapdata_volume_type = ${oracle_sapdata_volume_type}
+  oracle_orig_mirr_log_volume_type = ${oracle_orig_mirr_log_volume_type}
+  sap_id                 = ${sap_id}
+  region                 = ${region}
+  aws_vpc                = ${aws_vpc}
+  aws_subnet_id          = ${aws_subnet_id}
+}
